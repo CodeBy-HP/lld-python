@@ -4,6 +4,10 @@
 #  Tightly Coupled Code – If we want to change the cost of CheesePizza, we have to modify multiple classes.
 #  Not Flexible – What if we want to add Mushrooms later? We'd have to create even more subclasses.
 
+
+
+# Bad Approach
+
 # Base Pizza class
 class Pizza:
     def cost(self):
@@ -27,4 +31,4 @@ pizza = OlivePepperoniCheesePizza()
 print(f"Total Cost: {pizza.cost()}")  # Output: 200
 
 
-# Bad Approach
+
