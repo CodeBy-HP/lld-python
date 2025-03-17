@@ -6,7 +6,7 @@
 
 
 
-# Bad Approach
+# ---------------------------Bad Approach------------------------
 
 # Base Pizza class
 class Pizza:
